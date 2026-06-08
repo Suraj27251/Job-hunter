@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+freelance-radar/node_modules/
+freelance-radar/.pnp
+freelance-radar/.pnp.js
+freelance-radar/yarn.lock
+freelance-radar/package-lock.json
+
+# next.js
+freelance-radar/.next/
+freelance-radar/out/
+
+# production
+freelance-radar/build/
+
+# misc
+freelance-radar/.DS_Store
+freelance-radar/*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+freelance-radar/.env*.local
+freelance-radar/.env
+freelance-radar/.env.development.local
+freelance-radar/.env.test.local
+freelance-radar/.env.production.local
+
+# vercel
+freelance-radar/.vercel
+
+# typescript
+freelance-radar/*.tsbuildinfo
+freelance-radar/next-env.d.ts
